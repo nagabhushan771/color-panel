@@ -1,0 +1,40 @@
+
+body{
+    background-color: #eee;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+input[type=text]{
+    margin: 10px 20px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+button{
+    padding: 10px;
+    margin: 10px 10px;
+    border-radius: 10px;
+    background-color: #bbb;
+    font-weight: 700;
+    border: none;
+    
+}
+
+.grid-container{
+    display:grid;
+    margin:20px;
+    grid-template-columns: auto auto auto;
+    padding:10px;
+  }
+  .grid-item{
+    background-color:transparent;
+    border:1px solid rgba(0, 0, 0, 0.7);
+    padding:20px;
+    font-size:30px;
+    text-align:center;
+    margin: 10px 10px;
+    border-radius: 10px;
+  }
